@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.aenor.es/xsd/lomes_v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.aenor.es/xsd/lomes_v1.0" elementFormDefault="qualified" version="LOMES V1.0">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/03/xml.xsd"/>
+	<!-- *************************** -->
+	<!-- ** Declaración Atributos ** -->
+	<!-- *************************** -->
+	<xs:group name="grp.any">
+		<xs:sequence>
+			<xs:any namespace="##other" processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:attribute name="language" type="languageValues">
+		<xs:annotation>
+			<xs:documentation>Refers to universal  XML 1.0 lang attribute</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	<!-- ************************* -->
+	<!-- ** Declaración de elementos ** -->
+	<!-- ************************* -->
+	<xs:element name="access" type="accessType"/>
+	<xs:element name="aggregationlevel" type="aggregationlevelValues"/>
+	<xs:element name="annotation" type="annotationType"/>
+	<xs:element name="catalog" type="characterString"/>
+	<xs:element name="classification" type="classificationType"/>
+	<xs:element name="cognitiveprocess" type="cognitiveprocessValues"/>
+	<xs:element name="context" type="contextValues"/>
+	<xs:element name="contributemetatype" type="contributemetatypeValues"/>
+	<xs:element name="contributecycletype" type="contributecycletypeValues"/>
+	<xs:element name="copyrightandotherrestrictions" type="copyrightandotherrestrictionsValues"/>
+	<xs:element name="cost" type="costValues"/>
+	<xs:element name="coverage" type="Type1"/>
+	<xs:element name="date" type="dateType"/>
+	<xs:element name="datevalue" type="xs:date"/>
+	<xs:element name="description" type="Type1"/>
+	<xs:element name="descriptionedu" type="Type3"/>	
+	<xs:element name="descriptiongen" type="Type2"/>
+	<xs:element name="difficulty" type="difficultyValues"/>
+	<xs:element name="duration" type="durationType"/>
+	<xs:element name="durationvalue" type="xs:duration"/>
+	<xs:element name="educational" type="educationalType"/>
+	<xs:element name="entity" type="entityType"/>
+	<xs:element name="entry" type="characterString"/>
+	<xs:element name="entryclassification" type="Type1"/>
+	<xs:element name="format" type="characterString"/>
+	<xs:element name="general" type="generalType"/>
+	<xs:element name="identifier" type="identifierType"/>
+	<xs:element name="identifierclassification" type="characterString"/>
+	<xs:element name="installationremarks" type="Type1"/>
+	<xs:element name="intendedenduserrole" type="intendedenduserroleValues"/>
+	<xs:element name="interactivitylevel" type="interactivitylevelValues"/>
+	<xs:element name="interactivitytype" type="interactivitytypeValues"/>
+	<xs:element name="keyword" type="Type1"/>
+	<xs:element name="language" type="characterString"/>
+	<xs:element name="langstring" type="langstringType"/>
+	<xs:element name="langstringedu" type="langstringeduType"/>	
+	<xs:element name="langstringgen" type="langstringgenType"/> 
+	<xs:element name="learningresourcetype" type="learningresourcetypeValues"/>
+	<xs:element name="lifecycle" type="lifecycleType"/>
+	<xs:element name="lifecyclecontribute" type="lifecyclecontributeType"/>
+	<xs:element name="location" type="characterString"/>
+	<xs:element name="lom" type="lomType"/>
+	<xs:element name="metadatascheme" type="characterString"/>
+	<xs:element name="metametadatacontribute" type="metametadatacontributeType"/>
+	<xs:element name="metametadata" type="metametadataType"/>
+	<xs:element name="maximumversion" type="characterString"/>
+	<xs:element name="minimumversion" type="characterString"/>
+	<xs:element name="name" type="nameValues"/>
+	<xs:element name="orcomposite" type="orcompositeType"/>
+	<xs:element name="orcompositetype" type="orcompositetypeValues"/>
+	<xs:element name="otherplatformrequirements" type="Type1"/>
+	<xs:element name="purpose" type="purposeValues"/>
+	<xs:element name="relation" type="relationType"/>
+	<xs:element name="requirement" type="requirementType"/>
+	<xs:element name="resource" type="resourceType"/>
+	<xs:element name="rights" type="rightsType"/>
+	<xs:element name="semanticdensity" type="semanticdensityValues"/>
+	<xs:element name="size" type="xs:int"/>
+	<xs:element name="source" type="Type1"/>
+	<xs:element name="status" type="statusValues"/>
+	<xs:element name="structure" type="structureValues"/>
+	<xs:element name="taxon" type="taxonType"/>
+	<xs:element name="taxonpath" type="taxonpathType"/>
+	<xs:element name="technical" type="technicalType"/>
+	<xs:element name="title" type="Type1"/>
+	<xs:element name="typeaccess" type="typeaccessValues"/>
+	<xs:element name="typerelation" type="relationtypeValues"/>
+	<xs:element name="typicalagerange" type="Type1"/>
+	<xs:element name="typicallearningtime" type="durationType"/>
+	<xs:element name="vcard" type="vcardType"/>
+	<xs:element name="version" type="Type1"/>
+	<!-- ******************* -->
+	<!-- ** COMPLEX TYPE  ** -->
+	<!-- ******************* -->
+	<!-- ******************* -->
+	<!-- Lom label           -->
+	<!-- ******************* -->
+	<!--Lom-->
+	<xs:complexType name="lomType">
+		<xs:sequence>
+			<xs:element ref="general"/>
+			<xs:element ref="lifecycle" minOccurs="0"/>
+			<xs:element ref="metametadata"/>
+			<xs:element ref="technical" minOccurs="0"/>
+			<xs:element ref="educational" maxOccurs="unbounded"/>
+			<xs:element ref="rights"/>
+			<xs:element ref="relation" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="classification" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ******************* -->
+	<!-- General label       -->
+	<!-- ******************* -->
+	<!--General-->
+	<xs:complexType name="generalType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="identifier" maxOccurs="unbounded"/>
+			<xs:element ref="title"/>
+			<xs:element ref="language" maxOccurs="unbounded"/>
+			<xs:element ref="descriptiongen" maxOccurs="unbounded"/>
+			<xs:element ref="keyword" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="coverage" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="structure" minOccurs="0"/>
+			<xs:element ref="aggregationlevel"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ******************* -->
+	<!-- Lifecycle label     -->
+	<!-- ******************* -->
+	<!--Lifecycle-->
+	<xs:complexType name="lifecycleType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="version" minOccurs="0"/>
+			<xs:element ref="status" minOccurs="0"/>
+			<xs:element ref="lifecyclecontribute" maxOccurs="unbounded"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Contribute Lifecycle-->
+	<xs:complexType name="lifecyclecontributeType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="contributecycletype"/>
+			<xs:element ref="entity" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="date" minOccurs="0"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ******************* -->
+	<!-- Meta-Metadata label -->
+	<!-- ******************* -->
+	<!--Meta-metadata-->
+	<xs:complexType name="metametadataType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="identifier" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="metametadatacontribute" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="metadatascheme" maxOccurs="unbounded"/>
+			<xs:element ref="language"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Contribute Meta-Metadata-->
+	<xs:complexType name="metametadatacontributeType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="contributemetatype"/>
+			<xs:element ref="entity" maxOccurs="unbounded"/>
+			<xs:element ref="date"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ******************* -->
+	<!-- Technical label     -->
+	<!-- ******************* -->
+	<!--Technical label-->
+	<xs:complexType name="technicalType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="format" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="size" minOccurs="0"/>
+			<xs:element ref="location" maxOccurs="unbounded"/>
+			<xs:element ref="requirement" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="installationremarks" minOccurs="0"/>
+			<xs:element ref="otherplatformrequirements" minOccurs="0"/>
+			<xs:element ref="duration" minOccurs="0"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Requirement-->
+	<xs:complexType name="requirementType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="orcomposite" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--ORComposite-->
+	<xs:complexType name="orcompositeType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="orcompositetype" minOccurs="0"/>
+			<xs:element ref="name" minOccurs="0"/>
+			<xs:element ref="minimumversion" minOccurs="0"/>
+			<xs:element ref="maximumversion" minOccurs="0"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ******************* -->
+	<!-- Educational label   -->
+	<!-- ******************* -->
+	<!--Educational-->
+	<xs:complexType name="educationalType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="interactivitytype" minOccurs="0"/>
+			<xs:element ref="learningresourcetype" maxOccurs="unbounded"/>
+			<xs:element ref="interactivitylevel" minOccurs="0"/>
+			<xs:element ref="semanticdensity" minOccurs="0"/>
+			<xs:element ref="intendedenduserrole" maxOccurs="unbounded"/>
+			<xs:element ref="context" maxOccurs="unbounded"/>
+			<xs:element ref="typicalagerange" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="difficulty" minOccurs="0"/>
+			<xs:element ref="typicallearningtime" minOccurs="0"/>
+			<xs:element ref="descriptionedu" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="language" maxOccurs="unbounded"/>
+			<xs:element ref="cognitiveprocess" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ******************* -->
+	<!-- Rights label        -->
+	<!-- ******************* -->
+	<!--Rights-->
+	<xs:complexType name="rightsType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="cost" minOccurs="0"/>
+			<xs:element ref="copyrightandotherrestrictions"/>
+			<xs:element ref="description" minOccurs="0"/>
+			<xs:element ref="access"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Access-->
+	<xs:complexType name="accessType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="typeaccess"/>
+			<xs:element ref="description"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ******************* -->
+	<!-- Relation label      -->
+	<!-- ******************* -->
+	<!--Relation-->
+	<xs:complexType name="relationType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="typerelation" minOccurs="0"/>
+			<xs:element ref="resource" minOccurs="0"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Resource-->
+	<xs:complexType name="resourceType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="identifier" minOccurs="0"/>
+			<xs:element ref="description" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ******************* -->
+	<!-- Annotation label    -->
+	<!-- ******************* -->
+	<!--Annotation-->
+	<xs:complexType name="annotationType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="entity" minOccurs="0"/>
+			<xs:element ref="date" minOccurs="0"/>
+			<xs:element ref="description" minOccurs="0"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ********************-->
+	<!-- Classification label-->
+	<!-- ********************-->
+	<!--Classification-->
+	<xs:complexType name="classificationType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="purpose"/>
+			<xs:element ref="taxonpath" maxOccurs="unbounded"/>
+			<xs:element ref="description" minOccurs="0"/>
+			<xs:element ref="keyword" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Taxonpath-->
+	<xs:complexType name="taxonpathType">
+		<xs:sequence>
+			<xs:element ref="source" minOccurs="0"/>
+			<xs:element ref="taxon" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Taxon-->
+	<xs:complexType name="taxonType">
+		<xs:sequence>
+			<xs:element ref="identifierclassification"/>
+			<xs:element ref="entryclassification"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- *****************************-->
+	<!-- ** Complex Type Common **-->
+	<!-- *****************************-->
+	<!--Date-->
+	<xs:complexType name="dateType">
+		<xs:sequence>
+			<xs:element ref="datevalue" minOccurs="0"/>
+			<xs:element ref="description" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Duration-->
+	<xs:complexType name="durationType">
+		<xs:sequence>
+			<xs:element ref="durationvalue" minOccurs="0"/>
+			<xs:element ref="description" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Entity-->
+	<xs:complexType name="entityType">
+		<xs:sequence>
+			<xs:element ref="vcard"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Identifier-->
+	<xs:complexType name="identifierType" mixed="true">
+		<xs:sequence>
+			<xs:element ref="catalog"/>
+			<xs:element ref="entry"/>
+			<xs:group ref="grp.any"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--Langstring-->
+	<xs:complexType name="langstringType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute ref="language"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!--Langstringedu-->
+	<xs:complexType name="langstringeduType">
+		<xs:simpleContent>
+			<xs:extension base="aux2">
+				<xs:attribute ref="language"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType> 
+	<!--Langstringgen-->
+	<xs:complexType name="langstringgenType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string"> <!--Antes aux-->
+				<xs:attribute ref="language"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType> 
+	<!--Type1-->
+	<xs:complexType name="Type1">
+		<xs:sequence>
+			<xs:element ref="langstring" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--	Type2  -->
+	<xs:complexType name="Type2">
+		<xs:sequence>
+			<xs:element ref="langstringgen" maxOccurs="unbounded"/>  
+		</xs:sequence>
+	</xs:complexType>
+	<!--	Type3  -->
+	<xs:complexType name="Type3">
+		<xs:sequence>
+			<xs:element ref="langstringedu" maxOccurs="unbounded"/>  
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- ****************** -->
+	<!-- ** Simple Types  ** -->
+	<!-- ****************** -->
+	<!-- aux -->
+	<xs:simpleType name="aux">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="CARACTERÍSTICAS:(resolución\([0-9]{1,}ppp(\),|\))){0,1}(dimensión\([0-9]{1,}x[0-9]{1,}(\),|\))){0,1}(modo color\([a-z]{1,}\s([a-z]|[A-Z]){0,}(\),|\))){0,1}(banda sonora\([a-z]{1,}(\),|\))){0,1}(formato\([a-z]{1,}(\),|\))){0,1}(tipo de plano\([a-z]{1,}(\),|\))){0,1}(luz\([a-z]{1,}(\),|\))){0,1}(estructura formal\([a-z]{1,}(\),|\))){0,1}(angulación\([a-z]{1,}\)){0,1}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- characterString -->
+	<xs:simpleType name="characterString">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<!-- Vcard Type -->
+	<xs:simpleType name="vcardType">
+		<xs:restriction base="xs:string">
+			<!--<xs:pattern value=" (BEGIN:VCARD VERSION:3.0)\n(FN:)((([a-z]|[A-Z]){1,}\s([a-z]|[A-Z]){1,})\n(EMAIL;TYPE=INTERNET:)([a-z]{1,}@[a-z]{1,}\.[a-z]{1,}\.[a-z]{1,})\n(ORG:)(([a-z]|[A-Z]|\s){1,})\n(END:VCARD))"/>-->
+      <!-- Cambio para CUADERNIA del patrón de vcard ya que el que ofrecía el estandar no era del todo correcto -->
+      <xs:pattern value="((BEGIN:VCARD VERSION:3.0)\s((FN:)([a-z]|[A-Z]|á|é|í|ó|ú|ü|Á|É|Í|Ó|Ú|Ü|\s)*)\s((EMAIL;TYPE=INTERNET:)(\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*)*)\s((ORG:)(([a-z]|[A-Z]|á|é|í|ó|ú|ü|Á|É|Í|Ó|Ú|Ü|\s)*))\s(END:VCARD))"/>
+    </xs:restriction>
+	</xs:simpleType>
+	<!-- aux2 Type -->
+	<xs:simpleType name="aux2">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="(CONOCIMIENTO PREVIO:([a-z]|á|é|í|ó|ú|\s){1,}((,|y)([a-z]|á|é|í|ó|ú|\s){1,}){0,}).|(OBJETIVOS DIDÁCTICOS:([a-z]|á|é|í|ó|ú|\s|,){1,}(;([a-z]|á|é|í|ó|ú|\s|,){1,}){0,}).|(TIPO DE CONOCIMIENTO:((declarativo|procedimental|condicional|metacognitivo)(,|.)){1,})|(([a-z]|[A-Z]|,|.){1,})"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	<!-- ****************** -->
+	<!-- **Values** -->
+	<!-- ****************** -->
+	<!--Context Values-->
+	<xs:simpleType name="contextValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="aula"/>
+			<xs:enumeration value="laboratorio"/>
+			<xs:enumeration value="entorno real"/>
+			<xs:enumeration value="domicilio"/>
+			<xs:enumeration value="mixto"/>
+			<xs:enumeration value="docente"/>
+			<xs:enumeration value="familia"/>
+			<xs:enumeration value="tutor"/>
+			<xs:enumeration value="compañero"/>
+			<xs:enumeration value="independiente"/>
+			<xs:enumeration value="mixta"/>
+			<xs:enumeration value="presencial"/>
+			<xs:enumeration value="semipresencial"/>
+			<xs:enumeration value="distancia"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Cost Values-->
+	<xs:simpleType name="costValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="si"/>
+			<xs:enumeration value="no"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Semantic Density Values-->
+	<xs:simpleType name="semanticdensityValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="muy baja"/>
+			<xs:enumeration value="baja"/>
+			<xs:enumeration value="media"/>
+			<xs:enumeration value="alta"/>
+			<xs:enumeration value="muy alta"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Copyright and other restrictions Values-->
+	<xs:simpleType name="copyrightandotherrestrictionsValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="licencia propietaria"/>
+			<xs:enumeration value="licencia libre EUPL"/>
+			<xs:enumeration value="licencia libre GPL"/>
+			<xs:enumeration value="licencia libre dual GPL y EUPL"/>
+			<xs:enumeration value="otras licencias libres"/>
+			<xs:enumeration value="dominio publico"/>
+			<xs:enumeration value="no corresponde"/>
+			<xs:enumeration value="creative commons: reconocimiento"/>
+			<xs:enumeration value="creative commons: reconocimiento - sin obra derivada"/>
+			<xs:enumeration value="creative commons: reconocimiento - sin obra derivada - no comercial"/>
+			<xs:enumeration value="creative commons: reconocimiento - no comercial"/>
+			<xs:enumeration value="creative commons: reconocimiento - no comercial - compartir igual"/>
+			<xs:enumeration value="creative commons: reconocimiento - compartir igual"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Intended end user role Values-->
+	<xs:simpleType name="intendedenduserroleValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="alumno"/>
+			<xs:enumeration value="alumno con necesidades educativas especiales"/>
+			<xs:enumeration value="público en general"/>
+			<xs:enumeration value="individual"/>
+			<xs:enumeration value="grupal"/>
+			<xs:enumeration value="docente"/>
+			<xs:enumeration value="tutor"/>
+			<xs:enumeration value="familia"/>
+			<xs:enumeration value="documentalista"/>
+			<xs:enumeration value="informático"/>
+			<xs:enumeration value="administrador"/>
+			<xs:enumeration value="experto en educación"/>
+			<xs:enumeration value="experto en la materia"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Difficulty Values-->
+	<xs:simpleType name="difficultyValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="muy fácil"/>
+			<xs:enumeration value="fácil"/>
+			<xs:enumeration value="medio"/>
+			<xs:enumeration value="difícil"/>
+			<xs:enumeration value="muy difícil"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Status Values-->
+	<xs:simpleType name="statusValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="borrador"/>
+			<xs:enumeration value="final"/>
+			<xs:enumeration value="revisado"/>
+			<xs:enumeration value="no disponible"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Structure Values-->
+	<xs:simpleType name="structureValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="atómica"/>
+			<xs:enumeration value="colección"/>
+			<xs:enumeration value="en red"/>
+			<xs:enumeration value="jerárquica"/>
+			<xs:enumeration value="lineal"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Aggregation level Values-->
+	<xs:simpleType name="aggregationlevelValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Names Values-->
+	<xs:simpleType name="nameValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="pc-dos"/>
+			<xs:enumeration value="ms-windows"/>
+			<xs:enumeration value="macos"/>
+			<xs:enumeration value="linux"/>
+			<xs:enumeration value="unix"/>
+			<xs:enumeration value="multi-so"/>
+			<xs:enumeration value="ninguno"/>
+			<xs:enumeration value="cualquiera"/>
+			<xs:enumeration value="mozilla firefox"/>
+			<xs:enumeration value="netscape communicator"/>
+			<xs:enumeration value="ms internet explorer"/>
+			<xs:enumeration value="opera"/>
+			<xs:enumeration value="amaya"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Interactivity level Values-->
+	<xs:simpleType name="interactivitylevelValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="muy bajo"/>
+			<xs:enumeration value="bajo"/>
+			<xs:enumeration value="medio"/>
+			<xs:enumeration value="alto"/>
+			<xs:enumeration value="muy alto"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Cognitive Process Values-->
+	<xs:simpleType name="cognitiveprocessValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="analizar"/>
+			<xs:enumeration value="aplicar"/>
+			<xs:enumeration value="colaborar"/>
+			<xs:enumeration value="comparar"/>
+			<xs:enumeration value="compartir"/>
+			<xs:enumeration value="competir"/>
+			<xs:enumeration value="comprender"/>
+			<xs:enumeration value="comprobar"/>
+			<xs:enumeration value="comunicar"/>
+			<xs:enumeration value="comtextualizar"/>
+			<xs:enumeration value="controlar"/>
+			<xs:enumeration value="cooperar"/>
+			<xs:enumeration value="crear"/>
+			<xs:enumeration value="decidir"/>
+			<xs:enumeration value="definir"/>
+			<xs:enumeration value="describir"/>
+			<xs:enumeration value="discutir"/>
+			<xs:enumeration value="diseñar"/>
+			<xs:enumeration value="evaluarse"/>
+			<xs:enumeration value="explicar"/>
+			<xs:enumeration value="extrapolar"/>
+			<xs:enumeration value="innovar"/>
+			<xs:enumeration value="investigar"/>
+			<xs:enumeration value="juzgar"/>
+			<xs:enumeration value="motivar"/>
+			<xs:enumeration value="observar"/>
+			<xs:enumeration value="organizar"/>
+			<xs:enumeration value="organizarse"/>
+			<xs:enumeration value="planificar"/>
+			<xs:enumeration value="practicar"/>
+			<xs:enumeration value="producir"/>
+			<xs:enumeration value="reconocer"/>
+			<xs:enumeration value="recordar"/>
+			<xs:enumeration value="redactar"/>
+			<xs:enumeration value="reflexionar"/>
+			<xs:enumeration value="relacionar"/>
+			<xs:enumeration value="representar"/>
+			<xs:enumeration value="resolver"/>
+			<xs:enumeration value="simular"/>
+			<xs:enumeration value="sintetizar"/>
+			<xs:enumeration value="valorar"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Purpose Values-->
+	<xs:simpleType name="purposeValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="disciplina"/>
+			<xs:enumeration value="idea"/>
+			<xs:enumeration value="prerrequisito"/>
+			<xs:enumeration value="objetivo educativo"/>
+			<xs:enumeration value="accesibilidad"/>
+			<xs:enumeration value="restricciones"/>
+			<xs:enumeration value="nivel educativo"/>
+			<xs:enumeration value="nivel de habilidad"/>
+			<xs:enumeration value="nivel de seguridad"/>
+			<xs:enumeration value="competencia"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Access Type Values-->
+	<xs:simpleType name="typeaccessValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="universal"/>
+			<xs:enumeration value="no universal"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--ORComposite Type Values-->
+	<xs:simpleType name="orcompositetypeValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="sistema operativo"/>
+			<xs:enumeration value="navegador"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Contribute Type Lifecycle Values-->
+	<xs:simpleType name="contributecycletypeValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="autor desconocido"/>
+			<xs:enumeration value="iniciador"/>
+			<xs:enumeration value="terminador"/>
+			<xs:enumeration value="revisor"/>
+			<xs:enumeration value="editor"/>
+			<xs:enumeration value="diseñador gráfico"/>
+			<xs:enumeration value="desarrollador técnico"/>
+			<xs:enumeration value="proveedor de contenidos"/>
+			<xs:enumeration value="revisor técnico"/>
+			<xs:enumeration value="revisor educativo"/>
+			<xs:enumeration value="guionista"/>
+			<xs:enumeration value="diseñador educativo"/>
+			<xs:enumeration value="experto en la materia"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Contribute Type Meta-metadata Values-->
+	<xs:simpleType name="contributemetatypeValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="creador"/>
+			<xs:enumeration value="revisor"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Interactivity Type Values-->
+	<xs:simpleType name="interactivitytypeValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="activo"/>
+			<xs:enumeration value="expositivo"/>
+			<xs:enumeration value="combinado"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Learning Resource Type Values -->
+	<xs:simpleType name="learningresourcetypeValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="fotografía"/>
+			<xs:enumeration value="ilustración"/>
+			<xs:enumeration value="vídeo"/>
+			<xs:enumeration value="animación"/>
+			<xs:enumeration value="música"/>
+			<xs:enumeration value="efecto sonoro"/>
+			<xs:enumeration value="locución"/>
+			<xs:enumeration value="audio compuesto"/>
+			<xs:enumeration value="texto simple"/>
+			<xs:enumeration value="hipertexto"/>
+			<xs:enumeration value="grafismo"/>
+			<xs:enumeration value="media integrado"/>
+			<xs:enumeration value="mapa conceptual"/>
+			<xs:enumeration value="mapa de navegación"/>
+			<xs:enumeration value="aplicación informática"/>
+			<xs:enumeration value="servicio"/>
+			<xs:enumeration value="lecturas guiadas"/>
+			<xs:enumeration value="lección magistral"/>
+			<xs:enumeration value="comentario de texto o imagen"/>
+			<xs:enumeration value="actividad de discusión"/>
+			<xs:enumeration value="ejercicio o problema cerrado"/>
+			<xs:enumeration value="caso contextualizado"/>
+			<xs:enumeration value="problema abierto contextualizado"/>
+			<xs:enumeration value="escenario real o virtual de aprendizaje"/>
+			<xs:enumeration value="experimento"/>
+			<xs:enumeration value="proyecto real"/>
+			<xs:enumeration value="simulación"/>
+			<xs:enumeration value="cuestionario"/>
+			<xs:enumeration value="examen"/>
+			<xs:enumeration value="autoevaluación"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Relation Values-->
+	<xs:simpleType name="relationtypeValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="es parte de"/>
+			<xs:enumeration value="tiene parte de"/>
+			<xs:enumeration value="es versión de"/>
+			<xs:enumeration value="tiene versión"/>
+			<xs:enumeration value="es formato de"/>
+			<xs:enumeration value="tiene formato"/>
+			<xs:enumeration value="referencia"/>
+			<xs:enumeration value="es referenciado por"/>
+			<xs:enumeration value="se basa en"/>
+			<xs:enumeration value="es base para"/>
+			<xs:enumeration value="requiere"/>
+			<xs:enumeration value="es requerido por"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--Relation Values-->
+	<xs:simpleType name="languageValues">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="ninguno"/>		
+			<xs:enumeration value="es"/>
+			<xs:enumeration value="ca"/>
+			<xs:enumeration value="eu"/>
+			<xs:enumeration value="ga"/>
+			<xs:enumeration value="va"/>
+			<xs:enumeration value="en"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
