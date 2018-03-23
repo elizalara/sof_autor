@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Visor Cuadernia</title>
+        <style type="text/css">
+			html { height: 100%; overflow: hidden; }
+			body { height: 100%; margin: 0;	padding: 0;	background-color: #ffffff; }
+		</style>
+        <script type="text/javascript" src="configuracion/libreria.js"></script>
+		<!--<script type="text/javascript" src="configuracion/SCORM_API_wrapper_v1.1.7.js"></script>-->
+		<script type="text/javascript">
+			
+			// have to hard code this version number so that there are no issues with Saba
+	//pipwerks.SCORM.version = "1.2";
+	
+			jQuery(document).ready(
+				function(){
+					var flashvars = {};
+					var params = {};
+				var attributes = {};
+
+					if(jQuery.getUrlVar("pagina")) flashvars.pagina = jQuery.getUrlVar("pagina");
+					if(jQuery.getUrlVar("contenido")) 
+					{
+						flashvars.contenido = jQuery.getUrlVar("contenido");
+						flashvars.publicacion = "false";
+					}
+					else {
+						flashvars.contenido = "configuracion/libro.xml";
+						flashvars.publicacion = "true";
+					}
+					if(jQuery.getUrlVar("identificador")) flashvars.identificador = jQuery.getUrlVar("identificador");
+					//flashvars.contenido = "configuracion/libro.xml";
+					
+					params.wmode="transparent";
+					params.menu = false;
+					params.allowFullScreen = true;
+					params.allowScriptAccess="always" ;
+						
+					cargarLibro('configuracion/visualizador.swf', 'libro', 9, '100%', '100%', flashvars, params, attributes);
+				}
+			);
+		</script>
+	</head>
+    <body>
+    <div id="contenedor" style="width:100%; height:100%"></div>
+		
+		
+    </body>
+</html>

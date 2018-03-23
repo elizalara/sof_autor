@@ -1,0 +1,152 @@
+<fundacion alto="550" ancho="775" scorm="0">
+  <pagina locked="0" id="1">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]Depositphotos_7478286_original.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="68" ancho_px="332" alto="100" ancho="100" rotation="0" posy="30" posx="189" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Impact" SIZE="36" COLOR="#00FF00" LETTERSPACING="0" KERNING="0">Elementos Naturales<FONT COLOR="#00CC66"></FONT></FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento fondo="vacio" borde="vacio" alto_px="55" ancho_px="187" alto="100" ancho="100" rotation="0" posy="116" posx="393" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="BlackMetalSans" SIZE="20" COLOR="#333333" LETTERSPACING="0" KERNING="1">Grado: <FONT COLOR="#006600">Tercero </FONT></FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento fondo="vacio" borde="vacio" alto_px="180.8" ancho_px="399" alto="100" ancho="100" rotation="0" posy="250" posx="97" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="BlackMetalSans" SIZE="18" COLOR="#333333" LETTERSPACING="0" KERNING="1">Competencia: <FONT COLOR="#006600">Exploro mi entorno cotidiano y diferencio elementos naturales de artefactos elaborados con</FONT></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="BlackMetalSans" SIZE="18" COLOR="#006600" LETTERSPACING="0" KERNING="1">la intención de mejorar las condiciones de vida.</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento fondo="vacio" borde="vacio" alto_px="152" ancho_px="250" alto="100" ancho="100" rotation="0" posy="114" posx="43" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="BlackMetalSans" SIZE="20" COLOR="#333333" LETTERSPACING="0" KERNING="1"><B>Integrantes: </B></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="BlackMetalSans" SIZE="20" COLOR="#006600" LETTERSPACING="0" KERNING="1"><B>Elizabeth Lara - Sandra Delgado</B></FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento imagen="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]wall-stickers-for-kids-lion-tom.jpg" salto="2" alto_px="587" ancho_px="600" alto="11.62" ancho="12.85" rotation="0" posy="49" posx="521" tipo="hipervinculo" src="5"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="41" ancho_px="71" alto="100" ancho="100" rotation="0" posy="25" posx="535" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial Black" SIZE="12" COLOR="#0099FF" LETTERSPACING="0" KERNING="0">Inicio</FONT></P></TEXTFORMAT>]]></elemento>
+  </pagina>
+  <pagina locked="0" id="1b"/>
+  <pagina locked="0" id="2">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]Depositphotos_7478286_original.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="68" ancho_px="332" alto="100" ancho="100" rotation="0" posy="73" posx="110" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Impact" SIZE="36" COLOR="#00FF00" LETTERSPACING="0" KERNING="0">Elementos Naturales<FONT COLOR="#00CC66"></FONT></FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento fondo="vacio" borde="vacio" alto_px="125" ancho_px="392" alto="100" ancho="100" rotation="0" posy="188" posx="75" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Tahoma" SIZE="18" COLOR="#0B333C" LETTERSPACING="0" KERNING="1">Los elementos naturales son aquellos elementos que no han sido producidos por el hombre, se pueden agrupar en:</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Tahoma" SIZE="18" COLOR="#0B333C" LETTERSPACING="0" KERNING="1">Agua - Aire - Suelo - Flora - Fauna.</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento imagen="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]wall-stickers-for-kids-lion-tom.jpg" salto="3" alto_px="587" ancho_px="600" alto="11.62" ancho="12.85" rotation="0" posy="49" posx="502" tipo="hipervinculo" src="5"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="46" ancho_px="71" alto="100" ancho="100" rotation="0" posy="16" posx="511" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial Black" SIZE="12" COLOR="#0099FF" LETTERSPACING="0" KERNING="0">Video refuerzo</FONT></P></TEXTFORMAT>]]></elemento>
+  </pagina>
+  <pagina locked="0" id="2b"/>
+  <pagina locked="0" id="3">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]Sign_Dog.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento titulo="Recuersos naturales" flv="galeria/videos/Importados/ElementosNaturales_copia_20180222040100/Videos/[_2_]videoplayback.mp4" alto_px="260" ancho_px="240" alto="88.85" ancho="118.75" rotation="0" posy="201" posx="255" tipo="video" src="7"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="55" ancho_px="83" alto="100" ancho="100" rotation="0" posy="24" posx="677" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial Black" SIZE="12" COLOR="#0099FF" LETTERSPACING="0" KERNING="0">Actividades</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento imagen="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]wall-stickers-for-kids-lion-tom.jpg" salto="4" alto_px="587" ancho_px="600" alto="11.62" ancho="12.85" rotation="0" posy="46" posx="673" tipo="hipervinculo" src="5"/>
+  </pagina>
+  <pagina locked="0" id="3b"/>
+  <pagina locked="0" id="4">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]Depositphotos_7478286_original.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="57" ancho_px="369" alto="100" ancho="100" rotation="0" posy="26" posx="28" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Impact" SIZE="36" COLOR="#00FF00" LETTERSPACING="0" KERNING="0">Actividades Evaluativas</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento imagen="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]Sopa-de-letras-del-abecedario-001.jpg" salto="5" alto_px="1440" ancho_px="1920" alto="5.38" ancho="6.46" rotation="0" posy="145" posx="59" tipo="hipervinculo" src="5"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="35" ancho_px="140" alto="100" ancho="100" rotation="0" posy="108" posx="53" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="18" COLOR="#990033" LETTERSPACING="0" KERNING="1">Sopa de letras</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento fondo="vacio" borde="vacio" alto_px="44" ancho_px="179" alto="100" ancho="100" rotation="0" posy="252" posx="169" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#993333" LETTERSPACING="0" KERNING="1">Encontrar parejas</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento imagen="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]descarga.jpg" salto="7" alto_px="183" ancho_px="275" alto="48.47" ancho="45.82" rotation="0" posy="286" posx="178" tipo="hipervinculo" src="5"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="44" ancho_px="179" alto="100" ancho="100" rotation="0" posy="108" posx="308" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Verdana" SIZE="16" COLOR="#993333" LETTERSPACING="0" KERNING="1">Rellenar Agujeros</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento imagen="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]Ficha-de-rellenar-los-huecos-con-palabras-de-Halloween-para-primaria.jpg" salto="6" alto_px="1240" ancho_px="1754" alto="7.16" ancho="7.19" rotation="0" posy="142" posx="317" tipo="hipervinculo" src="5"/>
+    <elemento imagen="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]wall-stickers-for-kids-lion-tom.jpg" salto="1" alto_px="587" ancho_px="600" alto="11.62" ancho="12.85" rotation="0" posy="27" posx="525" tipo="hipervinculo" src="5"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="41" ancho_px="71" alto="100" ancho="100" rotation="0" posy="10" posx="529" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial Black" SIZE="12" COLOR="#0099FF" LETTERSPACING="0" KERNING="0">Volver</FONT></P></TEXTFORMAT>]]></elemento>
+  </pagina>
+  <pagina locked="0" id="4b"/>
+  <pagina locked="0" id="5">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]Depositphotos_7478286_original.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/sopa.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="3" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Elementos Naturales"/>
+          <instrucciones name="instrucciones">Encuentra todas las palabras</instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="-1" intentos="2" evaluacion="porcentual"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" palabras="5" filas="12" columnas="12"/>
+          <palabra name="palabra" texto="ROSA"/>
+          <palabra name="palabra" texto="ARBOL"/>
+          <palabra name="palabra" texto="PERRO"/>
+          <palabra name="palabra" texto="GATO"/>
+          <palabra name="palabra" texto="LLUVIA"/>
+          <palabra name="palabra" texto=""/>
+          <palabra name="palabra" texto=""/>
+          <palabra name="palabra" texto=""/>
+          <palabra name="palabra" texto=""/>
+          <palabra name="palabra" texto=""/>
+          <palabra name="palabra" texto=""/>
+          <palabra name="palabra" texto=""/>
+          <palabra name="palabra" texto=""/>
+          <palabra name="palabra" texto=""/>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Importados/ElementosNaturales_copia_20180222040100/Objetos/[_2_]bien_mujer.mp3"/>
+          <msgFallo name="msgFallo" texto="Inténtalo otra vez "/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Importados/ElementosNaturales_copia_20180222040100/Objetos/[_2_]incorrecto02.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+    <elemento fondo="vacio" borde="vacio" alto_px="41" ancho_px="71" alto="100" ancho="100" rotation="0" posy="10" posx="529" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial Black" SIZE="12" COLOR="#0099FF" LETTERSPACING="0" KERNING="0">Volver</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento imagen="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]wall-stickers-for-kids-lion-tom.jpg" salto="1" alto_px="587" ancho_px="600" alto="11.62" ancho="12.85" rotation="0" posy="27" posx="525" tipo="hipervinculo" src="5"/>
+  </pagina>
+  <pagina locked="0" id="5b"/>
+  <pagina locked="0" id="6">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]Depositphotos_7478286_original.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/rellenar.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="17" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Agua"/>
+          <instrucciones name="instrucciones">Completa los espacios en blanco</instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="-1" intentos="2" evaluacion="porcentual"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf">El elemento {agua}, junto con el fuego, la tierra y el aire, es uno de los elementos {naturales} mas importantes.</conf>
+          <parejas name="Respuesta">
+            <pareja>
+              <solucion>agua</solucion>
+              <respuesta>Agua</respuesta>
+              <respuesta>Natural</respuesta>
+              <respuesta>AGUA</respuesta>
+              <respuesta>NATURAL</respuesta>
+            </pareja>
+            <pareja>
+              <solucion>naturales</solucion>
+            </pareja>
+            <pareja>
+              <solucion/>
+            </pareja>
+          </parejas>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Importados/ElementosNaturales_copia_20180222040100/Objetos/[_2_]bien_mujer.mp3"/>
+          <msgFallo name="msgFallo" texto="Intentalo de nuevo"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Importados/ElementosNaturales_copia_20180222040100/Objetos/[_2_]incorrecto.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+    <elemento fondo="vacio" borde="vacio" alto_px="41" ancho_px="71" alto="100" ancho="100" rotation="0" posy="10" posx="529" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial Black" SIZE="12" COLOR="#0099FF" LETTERSPACING="0" KERNING="0">Volver</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento imagen="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]wall-stickers-for-kids-lion-tom.jpg" salto="1" alto_px="587" ancho_px="600" alto="11.62" ancho="12.85" rotation="0" posy="27" posx="525" tipo="hipervinculo" src="5"/>
+  </pagina>
+  <pagina locked="0" id="6b"/>
+  <pagina locked="0" id="7">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]Depositphotos_7478286_original.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/buscarparejas.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="0" posx="0" tipo="actividad" src="3">
+      <actividad id="7" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Elementos naturales"/>
+          <instrucciones name="instrucciones">Encuentra la pareja correcta</instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="-1" intentos="2" evaluacion="porcentual"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" nParejas="4" imgFondo="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Objetos/fondos/[_2_]fondo_005.jpg"/>
+          <imagen name="imagen" img="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]descarga (1).png"/>
+          <imagen name="imagen" img="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]gato-domestico-animales-gatos-pintado-por-darling1d-10011582.jpg"/>
+          <imagen name="imagen" img="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]7789875d48f8ca9e32a507a832adbbfd.png"/>
+          <imagen name="imagen" img="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]d8306195b78386d021811c982f9a3ea5.jpg"/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien!"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Importados/ElementosNaturales_copia_20180222040100/Objetos/[_2_]bien_mujer.mp3"/>
+          <msgFallo name="msgFallo" texto="Inténtalo de nuevo"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Importados/ElementosNaturales_copia_20180222040100/Objetos/[_2_]incorrecto_ordenador.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+    <elemento fondo="vacio" borde="vacio" alto_px="41" ancho_px="71" alto="100" ancho="100" rotation="0" posy="10" posx="529" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="Arial Black" SIZE="12" COLOR="#0099FF" LETTERSPACING="0" KERNING="0">Volver</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento imagen="galeria/imagenes/Importados/ElementosNaturales_copia_20180222040100/Importados/ElementosNaturales_20180221030212/cuadernia/Elementos Naturales/[_2_]wall-stickers-for-kids-lion-tom.jpg" salto="1" alto_px="587" ancho_px="600" alto="11.62" ancho="12.85" rotation="0" posy="27" posx="525" tipo="hipervinculo" src="5"/>
+  </pagina>
+</fundacion>
