@@ -1,0 +1,106 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Constructor</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script> 
+function terminateCommunication(){
+   try{
+	   var api = getAPIHandle();
+	   if ( api == null ){
+		 return "false";}
+	   else
+	  {	if ( terminated != "true" ){
+			var result = api.Terminate("");
+		}
+	   }
+	   return result;
+   }
+   catch(e){
+   
+   }
+}
+function geometra_alumno(){
+	var opciones="titlebar=no,Toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,top=0,left=0,width=800,height=600";
+	window.open("modulos_compilados/geometra_alumno.swf","_blank",opciones);
+}
+
+function calculadora(){
+	var opciones="titlebar=no,Toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,top=0,left=0,width=634,height=400";
+	window.open("modulos_compilados/calculadora.swf","_blank",opciones);
+}
+function calculadora_cientifica(){
+	var opciones="titlebar=no,Toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,top=0,left=0,width=634,height=400";
+	window.open("modulos_compilados/calculadora_cientifica.swf","_blank",opciones);
+}
+
+/*function cargar_reproductor(){
+	var eldiv = document.getElementById('carga');
+	var tiempico = new Date();
+	tiempico = tiempico.getTime();
+//	alert(tiempico);
+	eldiv.innerHTML = '<tr><td align="center" valign="middle"><object name="reproductor" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="800" height="600">      <param name="movie" value="reproductor.swf?'+ tiempico +'">      <param name=quality value="high">      <embed src="reproductor.swf?'+ tiempico +'" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="800" height="600"></embed>    </object></td></td></tr>';
+}*/
+</script>
+</head>
+
+<!--URL utilizadas en la película-->
+<!--Texto utilizado en la película-->
+<!--
+pregunta:
+Debug Scorm
+-->
+<!-- saved from url=(0013)about:internet -->
+
+
+
+<body onunload="javascript:terminateCommunication();" onload="">
+<table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0">
+  <div id="carga">
+	  <tr>
+			<td align="center" valign="middle">
+			
+				<script language="javascript">
+					if (AC_FL_RunContent == 0) {
+						alert("Esta página requiere el archivo AC_RunActiveContent.js.");
+					} else {
+						AC_FL_RunContent(
+							'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+							'width', '800',
+							'height', '600',
+							'src', 'reproductor',
+							'quality', 'high',
+							'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+							'align', 'middle',
+							'play', 'true',
+							'loop', 'true',
+							'scale', 'showall',
+							'wmode', 'window',
+							'devicefont', 'false',
+							'id', 'reproductor',
+							'bgcolor', '#ffffff',
+							'name', 'reproductor',
+							'menu', 'true',
+							'allowFullScreen', 'false',
+							'allowScriptAccess','sameDomain',
+							'movie', 'reproductor',
+							'salign', ''
+							); //end AC code
+					}
+				</script>
+				<noscript>
+					<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="800" height="600" id="reproductor" align="middle">
+					<param name="allowScriptAccess" value="sameDomain" />
+					<param name="allowFullScreen" value="false" />
+					<param name="movie" value="reproductor.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="reproductor.swf" quality="high" bgcolor="#ffffff" width="800" height="600" name="reproductor" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+					</object>
+				</noscript>
+			</td>
+	  </tr>
+  </div>
+</table>
+
+</body>
+</html>
