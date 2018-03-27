@@ -25,11 +25,6 @@
   <pagina locked="0" id="4b"/>
   <pagina locked="0" id="5">
     <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]fondo_012.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
-    <elemento titulo="Reutilizar" flv="galeria/videos/reutilizar/[_2_]Reducir Reutilizar y Reciclar. Para mejorar el mundo  Videos Educativos para Ninos.mp4" alto_px="260" ancho_px="240" alto="171.54" ancho="187.5" rotation="0" posy="9" posx="161" tipo="video" src="7"/>
-  </pagina>
-  <pagina locked="0" id="5b"/>
-  <pagina locked="0" id="6">
-    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]fondo_012.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
     <elemento actividad="galeria/actividades/rompecabezas.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="-1" posx="-1" tipo="actividad" src="3">
       <actividad id="8" name="actividad">
         <paso1 name="paso1">
@@ -56,8 +51,8 @@
       </actividad>
     </elemento>
   </pagina>
-  <pagina locked="0" id="6b"/>
-  <pagina locked="0" id="7">
+  <pagina locked="0" id="5b"/>
+  <pagina locked="0" id="6">
     <elemento colorFondo="16777215" alfaFondo="100" imagen="vacio" posy="0" posx="0" tipo="fondo" src="10"/>
     <elemento actividad="galeria/actividades/buscarparejas.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="-1" posx="-1" tipo="actividad" src="3">
       <actividad id="7" name="actividad">
