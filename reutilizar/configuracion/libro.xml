@@ -1,0 +1,93 @@
+<fundacion alto="550" ancho="775" scorm="0">
+  <pagina locked="0" id="1">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]fondo_015.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/cuadernia/reutilizar/[_2_]reutilizar.jpg" alto_px="768" ancho_px="1024" alto="71.23" ancho="65.14" rotation="0" posy="-2" posx="104" tipo="imagen" src="1"/>
+  </pagina>
+  <pagina locked="0" id="1b"/>
+  <pagina locked="0" id="2">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]fondo_012.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/cuadernia/reutilizar/[_2_]relibrea-icono-manos.png" alto_px="180" ancho_px="180" alto="100" ancho="100" rotation="0" posy="106" posx="301" tipo="imagen" src="1"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="217" ancho_px="584" alto="100" ancho="100" rotation="0" posy="294" posx="88" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="CENTER"><FONT FACE="BlackMetalSans" SIZE="22" COLOR="#0B333C" LETTERSPACING="0" KERNING="1">Es la acción que permite volver a utilizar los bienes o productos desechados y darles un uso igual o diferente a aquel para el que fueron concebidos. Este proceso hace que cuantos más objetos volvamos a reutilizar menos basura produciremos y menos recursos tendremos que gastar</FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento fondo="vacio" borde="vacio" alto_px="110" ancho_px="431" alto="100" ancho="100" rotation="0" posy="26" posx="178" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Arial Black" SIZE="28" COLOR="#0B333C" LETTERSPACING="0" KERNING="1">¿En qué consiste reutilizar?</FONT></P></TEXTFORMAT>]]></elemento>
+  </pagina>
+  <pagina locked="0" id="2b"/>
+  <pagina locked="0" id="3">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]fondo_012.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento imagen="galeria/imagenes/cuadernia/reutilizar/[_2_]tvora-nenaudoti-71390152.jpg" alto_px="447" ancho_px="700" alto="50.12" ancho="57.72" rotation="0" posy="30" posx="191" tipo="imagen" src="1"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="227" ancho_px="612" alto="100" ancho="100" rotation="0" posy="265" posx="97" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Helvetica" SIZE="20" COLOR="#0B333C" LETTERSPACING="0" KERNING="1"><B>La reutilización puede ser algo más complejo que la reducción. Implica creatividad. La creatividad y la imaginación cumplen un rol muy importante en la sociedad puesto que no existirán nuevas maneras de hacer ni cambios reales efectivos sin ambas herramientas. La reutilización se encuentra por esta razón antes del reciclaje, puesto que sólo requiere creatividad para recuperar un objeto desvalorizado. Existen tantas posibilidades albergadas en la basura como nubes en el cielo por lo que mencionamos con gran decisión que “La basura es producto del límite de la imaginación”. </B></FONT></P></TEXTFORMAT>]]></elemento>
+  </pagina>
+  <pagina locked="0" id="3b"/>
+  <pagina locked="0" id="4">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]fondo_004.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento fondo="vacio" borde="vacio" alto_px="286" ancho_px="534" alto="100" ancho="100" rotation="0" posy="219" posx="2" tipo="texto" src="2"><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Helvetica" SIZE="18" COLOR="#0B333C" LETTERSPACING="0" KERNING="1"><B> Esta se basa en reutilizar un objeto para darle una segunda vida útil. Todos los materiales o bienes pueden tener más de una vida útil, bien sea reparándolos para un mismo uso o con imaginación para un uso diferente.</B></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Helvetica" SIZE="18" COLOR="#0B333C" LETTERSPACING="0" KERNING="1"><B></B></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Helvetica" SIZE="18" COLOR="#0B333C" LETTERSPACING="0" KERNING="1"><B>Ejemplos: utilizar la otra cara de las hojas impresas, rellenar botellas,etc.</B></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Helvetica" SIZE="18" COLOR="#0B333C" LETTERSPACING="0" KERNING="1"><B>Las botellas desechables se pueden convertir en ladrillos ecológicos si en su interior se les ponen todas las bolsas de plástico que ya no se usan. Las cajitas o frascos de PVC, metal o plástico se pueden pintar o decorar con técnicas de decoupage y utilizarse nuevamente ahora para guardar distintos elementos. El papel usado se puede transformar en pulpa y crear nuevas hojas para escribir.</B><FONT SIZE="20"></FONT></FONT></P></TEXTFORMAT>]]></elemento>
+    <elemento imagen="galeria/imagenes/cuadernia/reutilizar/[_2_]botellas-reutilizables.jpg" alto_px="600" ancho_px="1200" alto="32.67" ancho="27.34" rotation="0" posy="11" posx="214" tipo="imagen" src="1"/>
+  </pagina>
+  <pagina locked="0" id="4b"/>
+  <pagina locked="0" id="5">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]fondo_012.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento titulo="Reutilizar" flv="galeria/videos/reutilizar/[_2_]Reducir Reutilizar y Reciclar. Para mejorar el mundo  Videos Educativos para Ninos.mp4" alto_px="260" ancho_px="240" alto="171.54" ancho="187.5" rotation="0" posy="9" posx="161" tipo="video" src="7"/>
+  </pagina>
+  <pagina locked="0" id="5b"/>
+  <pagina locked="0" id="6">
+    <elemento colorFondo="-1" alfaFondo="100" imagen="galeria/fondos/Objetos/fondos/[_2_]fondo_012.jpg" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/rompecabezas.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="-1" posx="-1" tipo="actividad" src="3">
+      <actividad id="8" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Reutilizar"/>
+          <instrucciones name="instrucciones"><![CDATA[Descubre la imagen ]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="-1" intentos="2"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" nImagenes="1" imgFondo=""/>
+          <imagen name="imagen" img="galeria/imagenes/cuadernia/reutilizar/[_2_]iStock_000075596333_Small-726x483.jpg"/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <dimensiones name="dimensiones" filas="3" columnas="3"/>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]correcto.mp3"/>
+          <msgFallo name="msgFallo" texto="Intentalo de nuevo"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]incorrecto02.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+  <pagina locked="0" id="6b"/>
+  <pagina locked="0" id="7">
+    <elemento colorFondo="16777215" alfaFondo="100" imagen="vacio" posy="0" posx="0" tipo="fondo" src="10"/>
+    <elemento actividad="galeria/actividades/buscarparejas.swf" alto_px="550" ancho_px="775" alto="100" ancho="100" rotation="0" posy="-1" posx="-1" tipo="actividad" src="3">
+      <actividad id="7" name="actividad">
+        <paso1 name="paso1">
+          <titulo name="titulo" texto="Reutilizar"/>
+          <instrucciones name="instrucciones"><![CDATA[Encuentra la pareja adecuada]]></instrucciones>
+          <interacciones name="interacciones" puntuacion="" tiempo="-1" intentos="2"/>
+        </paso1>
+        <paso2 name="paso2">
+          <conf name="conf" nParejas="4" imgFondo="galeria/imagenes/Objetos/fondos/[_2_]fondo_012.jpg"/>
+          <imagen name="imagen" img="galeria/imagenes/cuadernia/reutilizar/[_2_]ebe08fcd2e3e5f9ea956bc71bb99a36e.jpg"/>
+          <imagen name="imagen" img="galeria/imagenes/cuadernia/reutilizar/[_2_]ideas-para-reciclar-papel-13.jpg"/>
+          <imagen name="imagen" img="galeria/imagenes/cuadernia/reutilizar/[_2_]04.jpg"/>
+          <imagen name="imagen" img="galeria/imagenes/cuadernia/reutilizar/[_2_]materiales_reutilizables.jpg"/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+          <imagen name="imagen" img=""/>
+        </paso2>
+        <paso3 name="paso3">
+          <msgAcierto name="msgAcierto" texto="Muy bien"/>
+          <sndAcierto name="sndAcierto" sonido="galeria/sonidos/Objetos/[_2_]correcto.mp3"/>
+          <msgFallo name="msgFallo" texto="Intentalo de nuevo"/>
+          <sndFallo name="sndFallo" sonido="galeria/sonidos/Objetos/[_2_]incorrecto02.mp3"/>
+        </paso3>
+      </actividad>
+    </elemento>
+  </pagina>
+</fundacion>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<idiomas num="2">
+	<etiquetas num="948">
+		<etiqueta id="1" def="lb_nuevo" valor="Nuevo"/>
+		<etiqueta id="5" def="lb_borrar" valor="Borrar"/>
+		<etiqueta id="9" def="visual_et_9" valor="Imprimir"/>
+		<etiqueta id="11" def="visual_et_4" valor="Cerrar"/>
+		<etiqueta id="32" def="lb_actividad" valor="Actividad"/>
+		<etiqueta id="63" def="lb1_ayuda" valor="Ayuda"/>
+		<etiqueta id="89" def="bt_PantallaCompleta" valor="Pantalla Completa"/>
+		<etiqueta id="159" def="TitlePrev4" valor="Cuaderno completo"/>
+		<etiqueta id="166" def="Cont_PagDetalles2" valor="Tamaño"/>
+		<etiqueta id="175" def="lb_siguiente" valor="Siguiente"/>
+		<etiqueta id="298" def="et_instrucciones" valor="Instrucciones"/>
+		<etiqueta id="301" def="et_visualAcividad11" valor="Tiempo"/>
+		<etiqueta id="303" def="et_visualAcividad10" valor="Intentos"/>
+		<etiqueta id="306" def="Mactividad_op1" valor="Mensaje de Acierto"/>
+		<etiqueta id="308" def="Mactividad_op2" valor="Mensaje de Fallo"/>
+		<etiqueta id="335" def="T_Opciones" valor="Opciones"/>
+		<etiqueta id="351" def="T_PrevCuaderno" valor="Previsualizar cuaderno"/>
+		<etiqueta id="647" def="et_visuSolucion" valor="Solución"/>
+
+		<etiqueta id="708" def="Paso2_Frases1" valor="Oración:"/>
+		<etiqueta id="712" def="lb_Analizador1" valor="SN Sujeto"/>
+		<etiqueta id="713" def="lb_Analizador2" valor="Atributo"/>
+		<etiqueta id="714" def="lb_Analizador3" valor="Comp. Directo"/>
+		<etiqueta id="715" def="lb_Analizador4" valor="Comp. Indirecto"/>
+		<etiqueta id="716" def="lb_Analizador5" valor="Comp. Circunstancial"/>
+		<etiqueta id="717" def="lb_Analizador6" valor="Núcleo"/>
+		<etiqueta id="718" def="lb_Analizador7" valor="Cópula"/>
+		<etiqueta id="719" def="lb_Analizador8" valor="SV Predicado"/>
+		<etiqueta id="720" def="lb_Analizador9" valor="Comp. Agente"/>
+		<etiqueta id="721" def="lb_Analizador10" valor="Interjección"/>
+
+		<etiqueta id="723" def="et_visualLimpiar" valor="limpiar"/>
+		<etiqueta id="797" def="lbError_Previsualizacion1" valor="No se ha podido realizar la lectura."/>
+		<etiqueta id="797" def="lbError_Previsualizacion2" valor="No tiene permisos para acceder al cuaderno."/>
+		<etiqueta id="876" def="visual_et_0" valor="Ir a Página"/>
+		<etiqueta id="877" def="visual_et_1" valor="Ir"/>
+		<etiqueta id="878" def="visual_et_2" valor="Anterior"/>
+		<etiqueta id="879" def="visual_et_6" valor="Quitar zoom"/>
+		<etiqueta id="880" def="visual_et_7" valor="Aplicar Zoom"/>
+		<etiqueta id="881" def="visual_et_10" valor="Aplicar Lápiz"/>
+		<etiqueta id="882" def="visual_et_11" valor="Quitar Lápiz"/>
+		<etiqueta id="883" def="visual_et_12" valor="Reducir"/>
+		<etiqueta id="884" def="visual_et_13" valor="Ampliar"/>
+		<etiqueta id="885" def="visual_et_14" valor="Modo normal"/>
+		<etiqueta id="886" def="visual_et_15" valor="Para acceder a una página en concreto, introduzca su número y pulse sobre el botón circular."/>
+		<etiqueta id="887" def="visual_et_16" valor="Avanzar página"/>
+		<etiqueta id="888" def="visual_et_17" valor="Retroceder página"/>
+		<etiqueta id="889" def="visual_et_18" valor="Ayuda visualizador"/>
+		<etiqueta id="890" def="visual_et_19" valor="Imprimir cuaderno"/>
+		<etiqueta id="891" def="visual_et_20" valor="Inicio"/>
+		<etiqueta id="892" def="visual_et_21" valor="Final"/>
+		<etiqueta id="893" def="TitlePrev3" valor="Página actual"/>
+		<etiqueta id="894" def="visual_et_24" valor="Opciones Lápiz"/>
+		<etiqueta id="895" def="visual_et_26" valor="Color"/>
+		<etiqueta id="896" def="visual_et_27" valor="Transparencia"/>
+		<etiqueta id="897" def="visual_et_28" valor="Línea pequeña"/>
+		<etiqueta id="898" def="visual_et_29" valor="Línea mediana"/>
+		<etiqueta id="899" def="visual_et_30" valor="Línea grande"/>
+		<etiqueta id="900" def="visual_et_31" valor="Línea mayor"/>
+		<etiqueta id="901" def="et_reloj0" valor="La aguja negra pequeña marca las horas."/>
+		<etiqueta id="902" def="et_reloj1" valor="La aguja negra más larga marca los minutos."/>
+		<etiqueta id="903" def="et_reloj2" valor="La aguja roja marca los segundos."/>
+		<etiqueta id="904" def="et_reloj3" valor="a.m. antes del mediodía"/>
+		<etiqueta id="905" def="et_reloj4" valor="p.m. después del mediodía"/>
+		<etiqueta id="906" def="et_reloj5" valor="Autoevalación"/>
+		<etiqueta id="907" def="et_reloj6" valor="Horas"/>
+		<etiqueta id="908" def="et_reloj7" valor="Minutos"/>
+		<etiqueta id="909" def="et_reloj9" valor="Volver"/>
+		<etiqueta id="910" def="et_reloj10" valor="Número de intentos: "/>
+		<etiqueta id="911" def="et_reloj11" valor="Correctos:"/>
+		<etiqueta id="912" def="et_reloj12" valor="Incorrectos:"/>
+		<etiqueta id="913" def="et_reloj13" valor="La(s)            en punto"/>
+		<etiqueta id="914" def="et_reloj14" valor="La(s)                 y "/>
+		<etiqueta id="915" def="et_reloj15" valor="La(s)            menos"/>
+		<etiqueta id="916" def="et_funciones2" valor="Dibujar"/>
+		<etiqueta id="917" def="et_funciones3" valor="Función"/>
+		<etiqueta id="918" def="et_operaciones0" valor="Número de intentos:"/>
+		<etiqueta id="921.1" def="et_operaciones4_suma" valor="Introduce el valor de la suma en el recuadro punteado, haz click sobre comprobar y si aciertas te ofreceré otra operación hasta que compruebes por ti mismo que dominas estas operaciones."/>
+		<etiqueta id="921.2" def="et_operaciones4_resta" valor="Introduce el valor de la resta en el recuadro punteado, haz click sobre comprobar y si aciertas te ofreceré otra operación hasta que compruebes por ti mismo que dominas estas operaciones."/>
+		<etiqueta id="921.3" def="et_operaciones4_multi" valor="Introduce el valor de la multiplicación en el recuadro punteado, haz click sobre comprobar y si aciertas te ofreceré otra operación hasta que compruebes por ti mismo que dominas estas operaciones."/>
+		<etiqueta id="921.4" def="et_operaciones4_div" valor="Introduce el valor de la división y su resto en los recuadros punteados, haz click sobre comprobar y si aciertas te ofreceré otra operación hasta que compruebes por ti mismo que dominas estas operaciones."/>
+		<etiqueta id="922" def="et_ayuda1" valor="Debes utilizar siempre la X como variable independiente para que la reconozca la actividad, por ejemplo:"/>
+		<etiqueta id="923" def="et_ayuda2" valor="Estos son los símbolos que puedes utilizar:"/>
+		<etiqueta id="924" def="et_ayuda3" valor="() Paréntesis"/>
+		<etiqueta id="925" def="et_ayuda4" valor="* Multiplicar"/>
+		<etiqueta id="926" def="et_ayuda5" valor="/ Dividir"/>
+		<etiqueta id="927" def="et_ayuda6" valor="^ Potencia"/>
+		<etiqueta id="928" def="et_objeto1" valor="Error: archivo no disponible"/>
+		<etiqueta id="929" def="et_visuMaya" valor="Maya"/>
+		<etiqueta id="930" def="et_visuIniciar" valor="Iniciar"/>
+		<etiqueta id="931" def="lb_comprobar" valor="Comprobar"/>
+		<etiqueta id="933" def="et_visuReiniciar" valor="Reiniciar"/>
+		<etiqueta id="934" def="et_visualAcividad1" valor="Ayuda actividades"/>
+		<etiqueta id="935" def="et_visualAcividad2" valor="Pulse este botón para comenzar la actividad."/>
+		<etiqueta id="936" def="et_visualAcividad3" valor="Pulse este botón para ver las instrucciones para realizar la actividad."/>
+		<etiqueta id="937" def="et_visualAcividad4" valor="Pulse este botón para reiniciar la actividad."/>
+		<etiqueta id="938" def="et_visualAcividad5" valor="Pulse este botón para comenzare un nuevo intento para encontrar la solución a la actividad."/>
+		<etiqueta id="939" def="et_visualAcividad6" valor="Pulse este botón para comprobar si se ha encontrado la solución."/>
+		<etiqueta id="940" def="et_visualAcividad7" valor="Pulse este botón para eliminar las opciones seleccionadas en la actividad."/>
+		<etiqueta id="941" def="et_visualAcividad8" valor="Pulse este botón para ver la solución de la actividad si no ha conseguido realizarla."/>
+		<etiqueta id="942" def="et_visualAcividad9" valor="Pulse este botón para ver las posiciones de las fichas en la actividad puzzle."/>
+		<etiqueta id="943" def="et_visualP_Iniciar1" valor="Pulsa el botón iniciar para comenzar la actividad."/>
+		<etiqueta id="943" def="et_visualP_Iniciar1_1" valor="La actividad no pose mas intentos."/>
+		<etiqueta id="944" def="et_visualP_Iniciar2" valor="Pulsa el botón ayuda para ver la ayuda del menú de actividad."/>
+		<etiqueta id="945" def="et_visualCrucigrama" valor="Seleccione la pregunta"/>
+		<etiqueta id="946" def="et_visualCrucigrama1" valor="Imagen seleccionada:"/>
+		<etiqueta id="947" def="et_visualCrucigrama2" valor="Pregunta seleccionada:"/>
+		<!-- visualizador-->
+		<etiqueta id='1002' def='et_visualPanTran_1' valor='Transiciones del cuaderno'/>
+		<etiqueta id='1003' def='et_visualPanTran_2' valor='Transición:'/>
+		<etiqueta id='1004' def='et_visualPanTran_3' valor='Opciones:'/>
+		<etiqueta id='1005' def='et_visualPanTran_4' valor='Duración (en segundos)'/>
+		<etiqueta id='1006' def='et_visualPanTran_5' valor='Dirección:'/>
+		<etiqueta id='1007' def='et_visualPanTran_6' valor='Transiciones'/>
+		<etiqueta id='1030' def='lb_Analizador_txt1' valor='Elementos por analizar:  '/>
+		<etiqueta id='1031' def='lb_Sopa_txt1' valor='Palabras'/>
+		<etiqueta id='1032' def='lb_informacion_txt1' valor='ILIMITADO'/>
+		<etiqueta id='1033' def='lb_correcto' valor='Correcto'/>
+		<etiqueta id='1034' def='lb_incorrecto' valor='Incorrecto'/>
+		<etiqueta id='1035' def='lb_cActividad' valor='Comezar actividad'/>
+		<etiqueta id="1036" def="lb_error" valor="Error."/>
+		<etiqueta id="1037" def="lb_error_f1" valor="Error en f1(x)."/>
+		<etiqueta id="1038" def="lb_error_f2" valor="Error en f2(x)."/>
+		<etiqueta id="1039" def="lb_error_f3" valor="Error en f3(x)."/>
+		<etiqueta id='1054' def='error_escenaYouTube' valor='
+Se ha producido un error en la reproducción del video, compruebe su conexión a internet y la existencia del video en YouTube.
+'/>
+		<etiqueta id='1055' def='error_escenaSlideShare' valor='
+Se ha producido un error al abrir el documento, compruebe su conexión a internet.'/>
+		<etiqueta id="1045" def="exploracion_text1" valor="Pulse sobre los diferentes textos para ver los contenidos."/>
+		<etiqueta id="1046" def="exploracion_text2" valor="Texto sin Imagen."/>
+	</etiquetas>
+</idiomas>
