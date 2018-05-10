@@ -1,0 +1,55 @@
+
+.tab_content{
+	display:none;
+}
+
+
+.timelineNode {
+	margin-top:15px; 
+	border:2px solid white;	
+	border-radius: 50%;
+	width: 15px;
+ 	height: 15px; 
+	background-color: #ffffff;
+
+}
+
+.timelineNode:hover
+{
+    background-color: #004a61;
+}
+
+.timelineNode:active
+{
+    background-color: #40c3c3;
+}
+
+
+
+
+#content_bg {
+	
+	min-height: 250px;
+	
+}
+
+
+#textBox{
+	width:220px;
+	height:270px;
+	float:right;
+	margin:22px 0px 0 0px;
+	padding:10px;
+	border: 0;
+}
+
+
+#pyramidHolder{
+	width:355px;
+	height:290px;
+	margin:25px 0px 0px 0px;
+	float:left;
+	position:absolute;
+	top: 135px;
+	left: 42px;
+}
